@@ -32,9 +32,10 @@ class Album:
 		for trace in self:
 			return sum(trace.duration)
 
-	def cycle_by_durata(self, tracks):
+	def cycle_by_duration(self, tracks):
 		# TODO To implement
-		return tracks.sort(key=trace.duration for trace in tracks)
+		pass
+		# return tracks.sort(key=trace.duration for trace in tracks)
 
 	def __str__(self):
 		# total_duration = self.get_total_duration()

@@ -1,7 +1,8 @@
 import random
-from models.album import Album
-from models.trace import Trace
 import datetime
+
+from MusicalAlbum.models.album import Album
+from MusicalAlbum.models.trace import Trace
 
 
 class Test:
