@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="096f0002-96d1-4e82-b551-eb6834a85caa" name="Changes" comment="[FIX] Fixed import in test.py and added a TODO for album.py method: cycle_by_duration">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicalAlbum/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/MusicalAlbum/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicalAlbum/models/album.py" beforeDir="false" afterPath="$PROJECT_DIR$/MusicalAlbum/models/album.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicalAlbum/models/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/MusicalAlbum/models/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicalAlbum/models/trace.py" beforeDir="false" afterPath="$PROJECT_DIR$/MusicalAlbum/models/trace.py" afterDir="false" />
-    </list>
+    <list default="true" id="096f0002-96d1-4e82-b551-eb6834a85caa" name="Changes" comment="[IMP] Implemented all method for every class in the __main__.py file&#10;Created .txt file for the first album of 12 created." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669419538765</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[IMP] Implemented all method for every class in the __main__.py file&#10;Created .txt file for the first album of 12 created.">
+      <created>1669462371511</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669462371511</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +103,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[ADD] New exam: Musical Album" />
     <MESSAGE value="[FIX] Fixed import in test.py and added a TODO for album.py method: cycle_by_duration" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FIX] Fixed import in test.py and added a TODO for album.py method: cycle_by_duration" />
+    <MESSAGE value="[IMP] Implemented all method for every class in the __main__.py file&#10;Created .txt file for the first album of 12 created." />
+    <option name="LAST_COMMIT_MESSAGE" value="[IMP] Implemented all method for every class in the __main__.py file&#10;Created .txt file for the first album of 12 created." />
   </component>
 </project>

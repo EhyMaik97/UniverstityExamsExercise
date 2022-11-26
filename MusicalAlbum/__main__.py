@@ -5,8 +5,8 @@ import datetime
 
 
 if __name__ == '__main__':
-	# test = Test()
-	# test.main()
+	test = Test()
+	test.main()
 
 	trace = Trace(1, "Crazy Of Story", "Cardi B", 2.33)
 	trace_2 = Trace(2, "Pure", "Lauren Bacall", 4.44)
