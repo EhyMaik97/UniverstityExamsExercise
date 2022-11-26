@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="096f0002-96d1-4e82-b551-eb6834a85caa" name="Changes" comment="[ADD] New exam: Musical Album">
+    <list default="true" id="096f0002-96d1-4e82-b551-eb6834a85caa" name="Changes" comment="[FIX] Fixed import in test.py and added a TODO for album.py method: cycle_by_duration">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusicalAlbum/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/MusicalAlbum/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusicalAlbum/models/album.py" beforeDir="false" afterPath="$PROJECT_DIR$/MusicalAlbum/models/album.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MusicalAlbum/models/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/MusicalAlbum/models/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusicalAlbum/models/trace.py" beforeDir="false" afterPath="$PROJECT_DIR$/MusicalAlbum/models/trace.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,19 +24,22 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2I3n5PXVW4YVUUHOnEfmy9KjNBZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Michelangelo/PycharmProjects/UniverstityExamsExercise/MusicalAlbum/__main__.py",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Michelangelo/PycharmProjects/UniverstityExamsExercise/MusicalAlbum/__main__.py&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="MusicalAlbum" type="PythonConfigurationType" factoryName="Python">
       <module name="UniverstityExamsExercise" />
@@ -72,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669419169909</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[FIX] Fixed import in test.py and added a TODO for album.py method: cycle_by_duration">
+      <created>1669419538765</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669419538765</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,6 +102,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[ADD] New exam: Musical Album" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD] New exam: Musical Album" />
+    <MESSAGE value="[FIX] Fixed import in test.py and added a TODO for album.py method: cycle_by_duration" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FIX] Fixed import in test.py and added a TODO for album.py method: cycle_by_duration" />
   </component>
 </project>

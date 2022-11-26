@@ -1,0 +1,3 @@
+Album data with code: '0'
+Title: Rap n Rock, Performer: CORRADO, Acquisition Date: 2020-01-30, Support: VINILE, Total Duration: 16.13 minutes
+<generator object Test.main.<locals>.<genexpr> at 0x000001DFCCFE7300>

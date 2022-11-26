@@ -1,12 +1,7 @@
 
 class Trace:
 	"""Each trace has an automatic integer code, title and performer as strings,
-	and its (nonnegative) duration in seconds. A track is considered the same as another if it has the same code."""
-
-	def check_traccia(self, tracks):
-		for trace in tracks:
-			pass
-			# TODO Check that if there are duplicates for auto_code then they are duplicates
+	and its (non-negative) duration in seconds. A track is considered the same as another if it has the same code."""
 
 	def __init__(self, code, title, performer, duration):
 		self.code = code
@@ -16,4 +11,4 @@ class Trace:
 
 	def __str__(self):
 		return "Track data with code: " + "'" + str(self.code) + "'\n" \
-			"Title: " + self.title + ", Performer: " + self.performer + ", Duration: " + str(self.duration)
+			"Title: " + self.title + ", Performer: " + self.performer + ", Duration: " + str(self.duration) + "m"
