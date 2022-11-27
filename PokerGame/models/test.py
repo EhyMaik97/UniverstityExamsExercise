@@ -1,9 +1,9 @@
 import time
 import logging
 import random
-_logger = logging.getLogger(__name__)
-
 from PokerGame.models.match import Match
+
+_logger = logging.getLogger(__name__)
 
 
 class Test:

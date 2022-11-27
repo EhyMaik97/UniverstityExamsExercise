@@ -1,8 +1,8 @@
 import logging
-_logger = logging.getLogger(__name__)
-
 from PokerGame.models.deck import Deck
 from PokerGame.models.hand import Hand
+
+_logger = logging.getLogger(__name__)
 
 
 class Match:

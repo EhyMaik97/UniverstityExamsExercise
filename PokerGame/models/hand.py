@@ -2,11 +2,9 @@ import logging
 
 _logger = logging.getLogger("__name__")
 
-score = ['Coppia', 'Doppia Coppia', 'Tris', 'Scala', 'Colore', 'Full', 'Poker', 'Scala Colore']
-
 
 class Hand:
-    """s"""
+    """Consisting of 5 cards"""
 
     def __init__(self, cards):
         self.cards = cards
@@ -24,34 +22,34 @@ class Hand:
         cards_seed.sort()
         value_elements_repeated = {i: cards_value.count(i) for i in cards_value}
         seed_elements_repeated = {i: cards_seed.count(i) for i in cards_seed}
-        # Max seed needs for Colore: if max_seed == 5
+        # Max seed needs for Flush: if max_seed == 5
         max_seed = max(seed_elements_repeated.values())
         max_value = max(value_elements_repeated.values())
-        # Number of Max value needs for Douple Pair: if max_value == 2 and number_of_max == 2
+        # Number of Max value needs for Double Pair: if max_value == 2 and number_of_max == 2
         number_of_max = [key for key, value in value_elements_repeated.items() if value == max(value_elements_repeated.values())]
         # No Point
         if max_value == 1 and not max_seed == 5:
             return "Nothing: " + str(points)
-        # Coppia
+        # Pair
         if max_value == 2 and len(number_of_max) != 2 and not max_seed == 5:
             points += 1
-            return "Coppia - Score: " + str(points)
-        # Doppia Coppia
+            return "Pair - Score: " + str(points)
+        # Double Pair
         elif max_value == 2 and len(number_of_max) == 2 and not max_seed == 5:
             points += 2
-            return "Doppia Coppia - Score: " + str(points)
+            return "Double Pair - Score: " + str(points)
         # Tris
         elif max_value == 3 and not max_seed == 5:
             points += 3
             return "Tris - Score: " + str(points)
-        # Scala
+        # Straight
         # elif
         #     points += 4
-        #     return "Scala - Score: " + str(points)
-        # Colore
+        #     return "Straight - Score: " + str(points)
+        # Flush
         elif max_seed == 5:
             points += 5
-            return "Colore - Score: " + str(points)
+            return "Flush - Score: " + str(points)
         # Full
         elif max_value == 3 and len(number_of_max) == 1:
             points += 6
@@ -60,10 +58,10 @@ class Hand:
         elif len(number_of_max) == 4:
             points += 7
             return "Poker - Score: " + str(points)
-        # Scala Colore
+        # Royal Straight
         # elif
         #     points += 8
-        #     return "Scala - Score: " + str(points)
+        #     return "Royal Straight - Score: " + str(points)
 
     def replace_cards(self, old_cards, new_cards):
         """In input I will give the position of the cards I want to change -> ♥2, ♣8, ♦10, ♥3, ♣10 -> I want to change: ♣8 and ♥3, I will input their position in the hand, i.e. [1,3] """
