@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="096f0002-96d1-4e82-b551-eb6834a85caa" name="Changes" comment="[FIX] Fixed collezione_album.txt file">
-      <change afterPath="$PROJECT_DIR$/PokerGame/__main__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PokerGame/models/card.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PokerGame/models/deck.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PokerGame/models/hand.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PokerGame/models/test.py" afterDir="false" />
+    <list default="true" id="096f0002-96d1-4e82-b551-eb6834a85caa" name="Changes" comment="[ADD] New exam: Poker Game">
+      <change afterPath="$PROJECT_DIR$/PokerGame/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PokerGame/models/match.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicalAlbum/collezione_album.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MusicalAlbum/collezione_album.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PokerGame/models/card.py" beforeDir="false" afterPath="$PROJECT_DIR$/PokerGame/models/card.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PokerGame/models/deck.py" beforeDir="false" afterPath="$PROJECT_DIR$/PokerGame/models/deck.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PokerGame/models/hand.py" beforeDir="false" afterPath="$PROJECT_DIR$/PokerGame/models/hand.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PokerGame/models/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/PokerGame/models/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +37,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Michelangelo/PycharmProjects/UniverstityExamsExercise/PokerGame/__main__.py",
+    "last_opened_file_path": "C:/Users/Michelangelo/PycharmProjects/UniverstityExamsExercise/PokerGame/models",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
@@ -132,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669462478103</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[ADD] New exam: Poker Game">
+      <created>1669487793394</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669487793394</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,6 +158,7 @@
     <MESSAGE value="[FIX] Fixed import in test.py and added a TODO for album.py method: cycle_by_duration" />
     <MESSAGE value="[IMP] Implemented all method for every class in the __main__.py file&#10;Created .txt file for the first album of 12 created." />
     <MESSAGE value="[FIX] Fixed collezione_album.txt file" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FIX] Fixed collezione_album.txt file" />
+    <MESSAGE value="[ADD] New exam: Poker Game" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD] New exam: Poker Game" />
   </component>
 </project>
