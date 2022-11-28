@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="096f0002-96d1-4e82-b551-eb6834a85caa" name="Changes" comment="[ADD] New exam: Poker Game">
-      <change afterPath="$PROJECT_DIR$/PokerGame/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PokerGame/models/match.py" afterDir="false" />
+    <list default="true" id="096f0002-96d1-4e82-b551-eb6834a85caa" name="Changes" comment="[FIX] Fixed translations and unused import">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PokerGame/models/card.py" beforeDir="false" afterPath="$PROJECT_DIR$/PokerGame/models/card.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PokerGame/models/deck.py" beforeDir="false" afterPath="$PROJECT_DIR$/PokerGame/models/deck.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PokerGame/models/hand.py" beforeDir="false" afterPath="$PROJECT_DIR$/PokerGame/models/hand.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PokerGame/models/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/PokerGame/models/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,15 +27,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Michelangelo/PycharmProjects/UniverstityExamsExercise/PokerGame/models",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Michelangelo/PycharmProjects/UniverstityExamsExercise/PokerGame/models&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Michelangelo\PycharmProjects\UniverstityExamsExercise\PokerGame\models" />
@@ -139,7 +134,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669487793394</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[IMP] New implementation for Hand and Deck class&#10;- Added match class and almost finished test class&#10;- TODO: calculation score for: straight and the royal flush&#10;- Added README.md file">
+      <created>1669592022410</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669592022410</updated>
+    </task>
+    <task id="LOCAL-00007" summary="[FIX] Fixed translations and unused import">
+      <created>1669592280176</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669592280176</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,6 +168,8 @@
     <MESSAGE value="[IMP] Implemented all method for every class in the __main__.py file&#10;Created .txt file for the first album of 12 created." />
     <MESSAGE value="[FIX] Fixed collezione_album.txt file" />
     <MESSAGE value="[ADD] New exam: Poker Game" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD] New exam: Poker Game" />
+    <MESSAGE value="[IMP] New implementation for Hand and Deck class&#10;- Added match class and almost finished test class&#10;- TODO: calculation score for: straight and the royal flush&#10;- Added README.md file" />
+    <MESSAGE value="[FIX] Fixed translations and unused import" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FIX] Fixed translations and unused import" />
   </component>
 </project>

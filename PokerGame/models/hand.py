@@ -43,11 +43,10 @@ class Hand:
             points += 3
             return "Tris - Score: " + str(points)
         # Straight
-        # elif
-        #     points += 4
-        #     return "Straight - Score: " + str(points)
+        elif self.check_consecutive(cards_value) and not max_seed == 5:
+            return "Straight - Score: " + str(points)
         # Flush
-        elif max_seed == 5:
+        elif max_seed == 5 and not self.check_consecutive(cards_value):
             points += 5
             return "Flush - Score: " + str(points)
         # Full
@@ -59,9 +58,9 @@ class Hand:
             points += 7
             return "Poker - Score: " + str(points)
         # Royal Straight
-        # elif
-        #     points += 8
-        #     return "Royal Straight - Score: " + str(points)
+        elif self.check_consecutive(cards_value) and max_seed == 5:
+            points += 8
+            return "Royal Straight - Score: " + str(points)
 
     def replace_cards(self, old_cards, new_cards):
         """In input I will give the position of the cards I want to change -> ♥2, ♣8, ♦10, ♥3, ♣10 -> I want to change: ♣8 and ♥3, I will input their position in the hand, i.e. [1,3] """
@@ -77,6 +76,9 @@ class Hand:
                 self.cards.append(new_cards_to_add)
 
         return self.cards
+
+    def check_consecutive(self, list_value):
+        return sorted(list_value) == list(range(min(list_value), max(list_value) + 1))
 
     def __str__(self):
         for card in self.cards:
