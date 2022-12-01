@@ -1,0 +1,5 @@
+1,Would you rather live for the rest of your life in the Arctic or in the Sahara desert?,2
+2,Would you rather have a time machine that can only go back in time or one that can only go forward in time?,2
+3,Which superpower would you like to have?,2
+4,Do you multitask when attending a meeting online?,2
+5,How many hours a day do you spend online?,2

@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="096f0002-96d1-4e82-b551-eb6834a85caa" name="Changes" comment="[IMP] Completed method compute_score for straight and royal straight">
-      <change afterPath="$PROJECT_DIR$/VehicleFleet/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VehicleFleet/__main__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VehicleFleet/models/park.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VehicleFleet/models/seat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VehicleFleet/models/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VehicleFleet/models/vehicle.py" afterDir="false" />
+    <list default="true" id="096f0002-96d1-4e82-b551-eb6834a85caa" name="Changes" comment="[ADD] New exam: Vehicle Fleet">
+      <change afterPath="$PROJECT_DIR$/PollMgmt/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PollMgmt/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PollMgmt/models/poll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PollMgmt/models/question.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PollMgmt/models/results.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PollMgmt/models/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PollMgmt/models/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PollMgmt/questions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PollMgmt/users.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,18 +40,19 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Michelangelo/PycharmProjects/UniverstityExamsExercise/VehicleFleet",
+    "last_opened_file_path": "C:/Users/Michelangelo/PycharmProjects/UniverstityExamsExercise/PollMgmt/__main__.py",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Michelangelo\PycharmProjects\UniverstityExamsExercise\PollMgmt" />
       <recent name="C:\Users\Michelangelo\PycharmProjects\UniverstityExamsExercise\VehicleFleet" />
       <recent name="C:\Users\Michelangelo\PycharmProjects\UniverstityExamsExercise\PokerGame\models" />
       <recent name="C:\Users\Michelangelo\PycharmProjects\UniverstityExamsExercise\PokerGame" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.PokerGame">
+  <component name="RunManager" selected="Python.PollMgmt">
     <configuration name="MusicalAlbum" type="PythonConfigurationType" factoryName="Python">
       <module name="UniverstityExamsExercise" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,9 +95,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="PollMgmt" type="PythonConfigurationType" factoryName="Python">
+      <module name="UniverstityExamsExercise" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Michelangelo\AppData\Local\Microsoft\WindowsApps\python3.10.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PollMgmt" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PollMgmt/__main__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.MusicalAlbum" />
       <item itemvalue="Python.PokerGame" />
+      <item itemvalue="Python.PollMgmt" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -161,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669667645027</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="[ADD] New exam: Vehicle Fleet">
+      <created>1669672085122</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669672085122</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,6 +217,7 @@
     <MESSAGE value="[IMP] New implementation for Hand and Deck class&#10;- Added match class and almost finished test class&#10;- TODO: calculation score for: straight and the royal flush&#10;- Added README.md file" />
     <MESSAGE value="[FIX] Fixed translations and unused import" />
     <MESSAGE value="[IMP] Completed method compute_score for straight and royal straight" />
-    <option name="LAST_COMMIT_MESSAGE" value="[IMP] Completed method compute_score for straight and royal straight" />
+    <MESSAGE value="[ADD] New exam: Vehicle Fleet" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD] New exam: Vehicle Fleet" />
   </component>
 </project>
